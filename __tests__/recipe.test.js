@@ -50,9 +50,9 @@ describe('recipe routes', () => {
 
   it('gets all recipes', async() => {
     const recipes = await Recipe.create([
-      { name: 'cookies', directions: [] },
-      { name: 'cake', directions: [] },
-      { name: 'pie', directions: [] }
+      { name: 'cookies', ingredients: [], directions: [] },
+      { name: 'cake', ingredients: [], directions: [] },
+      { name: 'pie', ingredients: [], directions: [] }
     ]);
 
     return request(app)
