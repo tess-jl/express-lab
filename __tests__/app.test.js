@@ -24,6 +24,7 @@ describe('app routes', () => {
       .post('/api/v1/recipes')
       .send({
         name: 'cookies',
+        ingredients: [],
         directions: [
           'preheat oven to 375',
           'mix ingredients',
@@ -35,6 +36,7 @@ describe('app routes', () => {
         expect(res.body).toEqual({
           _id: expect.any(String),
           name: 'cookies',
+          ingredients: [],
           directions: [
             'preheat oven to 375',
             'mix ingredients',
@@ -68,6 +70,7 @@ describe('app routes', () => {
   it('gets recipe by id', async() => {
     const recipe = await Recipe.create({ 
       name: 'cookies', 
+      ingredients: [],
       directions: [
         'preheat oven to 375',
         'mix ingredients',
@@ -82,6 +85,7 @@ describe('app routes', () => {
         expect(res.body).toEqual({
           _id: expect.any(String),
           name: 'cookies',
+          ingredients: [],
           directions: [
             'preheat oven to 375',
             'mix ingredients',
@@ -97,6 +101,7 @@ describe('app routes', () => {
   it('updates a recipe by id', async() => {
     const recipe = await Recipe.create({
       name: 'cookies',
+      ingredients: [],
       directions: [
         'preheat oven to 375',
         'mix ingredients',
@@ -112,6 +117,7 @@ describe('app routes', () => {
         expect(res.body).toEqual({
           _id: expect.any(String),
           name: 'good cookies',
+          ingredients: [],
           directions: [
             'preheat oven to 375',
             'mix ingredients',
@@ -126,6 +132,7 @@ describe('app routes', () => {
   it('deletes a recipe by id', async() => {
     const recipe = await Recipe.create({
       name: 'good cookies',
+      ingredients: [],
       directions: [
         'preheat oven to 375',
         'mix ingredients',
@@ -141,6 +148,7 @@ describe('app routes', () => {
         expect(res.body).toEqual({
           _id: expect.any(String),
           name: 'good cookies',
+          ingredients: [],
           directions: [
             'preheat oven to 375',
             'mix ingredients',
