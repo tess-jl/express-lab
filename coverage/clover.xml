@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576020896879" clover="3.2.0">
-  <project timestamp="1576020896879" name="All files">
-    <metrics statements="51" coveredstatements="46" conditionals="1" coveredconditionals="1" methods="24" coveredmethods="19" elements="76" coveredelements="66" complexity="0" loc="51" ncloc="51" packages="4" files="6" classes="6"/>
+<coverage generated="1576021088567" clover="3.2.0">
+  <project timestamp="1576021088567" name="All files">
+    <metrics statements="51" coveredstatements="48" conditionals="1" coveredconditionals="1" methods="24" coveredmethods="21" elements="76" coveredelements="70" complexity="0" loc="51" ncloc="51" packages="4" files="6" classes="6"/>
     <package name="lib">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/Tess/alchemy/career-track/week-02/express-lab/lib/app.js">
@@ -31,9 +31,9 @@
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="26" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="16"/>
+      <metrics statements="26" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="18"/>
       <file name="attempt.js" path="/Users/Tess/alchemy/career-track/week-02/express-lab/lib/routes/attempt.js">
-        <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="6"/>
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -43,8 +43,8 @@
         <line num="15" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
       </file>
