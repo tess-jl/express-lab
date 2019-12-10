@@ -105,34 +105,25 @@ describe('attempt routes', () => {
       });
   });
 
-  // it('deletes a recipe by id', async() => {
-  //   const recipe = await Recipe.create({
-  //     name: 'good cookies',
-  //     ingredients: [],
-  //     directions: [
-  //       'preheat oven to 375',
-  //       'mix ingredients',
-  //       'put dough on cookie sheet',
-  //       'bake for 10 minutes'
-  //     ],
-  //   });
-
-  //   return request(app)
-  //     .delete(`/api/v1/attempts/${recipe._id}`)
-  //     .send({ name: 'good cookies' })
-  //     .then(res => {
-  //       expect(res.body).toEqual({
-  //         _id: expect.any(String),
-  //         name: 'good cookies',
-  //         ingredients: [],
-  //         directions: [
-  //           'preheat oven to 375',
-  //           'mix ingredients',
-  //           'put dough on cookie sheet',
-  //           'bake for 10 minutes'
-  //         ],
-  //         __v: 0
-  //       });
-  //     });
-  // });
+  it('deletes an attempt by id', async() => {
+    const attempt = await Attempt.create({
+      recipeId: 232, 
+      dateOfEvent: 20191210,  
+      notes: 'good recipe',
+      rating: 9
+    });
+    return request(app)
+      .delete(`/api/v1/attempts/${attempt._id}`)
+      .send({ recipeId: 232 })
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: expect.any(String),
+          recipeId: 232, 
+          dateOfEvent: expect.any(String),  
+          notes: 'good recipe',
+          rating: 9,
+          __v: 0
+        });
+      });
+  });
 });
