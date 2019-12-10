@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576016343650" clover="3.2.0">
-  <project timestamp="1576016343650" name="All files">
-    <metrics statements="36" coveredstatements="35" conditionals="1" coveredconditionals="1" methods="14" coveredmethods="13" elements="51" coveredelements="49" complexity="0" loc="36" ncloc="36" packages="3" files="3" classes="3"/>
+<coverage generated="1576017462304" clover="3.2.0">
+  <project timestamp="1576017462304" name="All files">
+    <metrics statements="34" coveredstatements="33" conditionals="1" coveredconditionals="1" methods="14" coveredmethods="13" elements="49" coveredelements="47" complexity="0" loc="34" ncloc="34" packages="4" files="4" classes="4"/>
     <package name="lib">
-      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/Tess/alchemy/career-track/week-02/express-lab/lib/app.js">
-        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.models">
@@ -36,6 +21,25 @@
         <line num="3" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.routes">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <file name="recipe.js" path="/Users/Tess/alchemy/career-track/week-02/express-lab/lib/routes/recipe.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
